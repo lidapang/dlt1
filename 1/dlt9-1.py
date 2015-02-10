@@ -5,7 +5,7 @@ import smtplib,re
 from email.mime.text import MIMEText
 
 my_number=[]
-com_number=["29","17","16","13","07",["01","07"]]#这个不解释
+com_number="29","17"#这个不解释
 
 
 
