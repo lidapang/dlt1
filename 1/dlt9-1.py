@@ -86,7 +86,7 @@ def duijiang(i):
 def dlt(fp1,xh):
 	
 	
-	#fp = open("ob.txt","w")
+	fp = open("ob.txt","w")
 	fp1 = open(fp1,"a")#修改处
 	out=[]
 	
@@ -94,7 +94,7 @@ def dlt(fp1,xh):
 	
 	for i in range (0,xh,1):
 		
-		global my_number
+		
 		my_number=[]#清空一次没有my_number
 		out=[]#清空一次没有out
 		print (i)
@@ -110,5 +110,5 @@ def dlt(fp1,xh):
 	fp1.close()#修改处
 	#send('w-f108@163.com','wppplwang','13659398903@139.com','Use My Python DLT','........') #邮件发送结果调用
 	
-dlt("1.txt",10)
-dlt("2.txt",20)
+dlt("1.txt",10000)
+dlt("2.txt",12000)

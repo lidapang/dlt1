@@ -1,4 +1,5 @@
 #-*-coding:utf-8-*-  
+#失败原因 是pypy不支持 threading 使用的是thread 查看pypy官网找到的啊 
 import random
 import time
 import smtplib,re
